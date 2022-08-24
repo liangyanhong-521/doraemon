@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>哆啦A梦</title>
+    <link rel="stylesheet" href="css/default.css" />
+    <script src="./vendor/jquery.min.js"></script>
+    <style id="codeStyle"></style>
+</head>
+<body>
+    <div class="code">
+        <pre id="code"></pre>
+    </div>
+
+
+    <div class="chart">
+        <div class="out-face">
+
+            <div class="inside-face">
+
+                <div class="eyes">
+                    <div class="left-eye">
+                        <div class="inner-left-eye"></div>
+                    </div>
+                    <div class="right-eye">
+                        <div class="inner-right-eye"></div>
+                    </div>
+                </div>
+
+                <div class="nose">
+                    <div class="inner-nose"></div>
+                </div>
+
+                <div class="mouse"></div>
+
+    
+                <div class="middle-beard"></div>
+                <div class="left-beard">
+                    <span class="left-whisker"></span>
+                    <span class="left-whisker"></span>
+                    <span class="left-whisker"></span>
+                </div>
+                <div class="right-beard">
+                    <span class="right-whisker"></span>
+                    <span class="right-whisker"></span>
+                    <span class="right-whisker"></span>
+                </div>
+            </div>
+            <div class="collar"></div>
+            <div class="bell">
+                <div class="bell-01"></div>
+                <div class="bell-02"></div>
+                <div class="bell-03"></div>
+                <div class="bell-04"></div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="actions">
+        <!-- H5 规定了自定义属性data-开头作为属性名并赋值 这样使自定义属性更加方便区分 -->
+        <button data-speed="pause">暂停</button>
+        <button data-speed="play">播放</button>
+        <button data-speed="slow">慢速</button>
+        <button data-speed="normal" class="active">中速</button>
+        <button data-speed="fast">快速</button>
+        <button data-speed="change">切换到皮卡丘</button>
+    </div> 
+    <script  type="module" src="./js/main.js"></script> 
+</body>
+</html>
