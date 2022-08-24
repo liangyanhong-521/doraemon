@@ -30,7 +30,7 @@ $(
                     delayTime = 20
                     break
                 case 'change':
-                    $(location).attr('href', 'C:/Users/root/Desktop/pikachu-1/');
+                    $(location).attr('href', 'https://liangyanhong-521.github.io/pikachu/');
                     break
             }
         })
